@@ -1,0 +1,48 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "Administrador",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "rol": "admin"
+    }
+  ],
+  "productos": [
+    {
+      "id": "1",
+      "Nombre": "Compresor de Ejemplo",
+      "Marca": "Ingersoll Rand",
+      "NumeroParte": "SSR-X10",
+      "Precio": 1500,
+      "Cantidad": 20,
+      "suspendido": false
+    },
+    {
+      "Nombre": "hola",
+      "Marca": "d",
+      "NumeroParte": "d",
+      "Precio": 3,
+      "Cantidad": 3,
+      "suspendido": false,
+      "id": "dCDOWXmwc0U"
+    }
+  ],
+  "movimientos": [
+    {
+      "id": "1",
+      "fecha": "2024-12-20",
+      "producto": "Compresor Ingersoll Rand SSR",
+      "sku": "IR-SSR-004",
+      "tipo": "Entrada",
+      "cantidad": "+2",
+      "motivo": "Compra",
+      "detalleMotivo": "Proveedor: Ingersoll Rand",
+      "stockAnterior": 13,
+      "stockNuevo": 15,
+      "usuario": "Liliana Vesga"
+    }
+  ],
+  "actividad": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
