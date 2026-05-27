@@ -1,0 +1,21 @@
+/* Aplicando las fuentes que importaste en App.jsx */
+body {
+  font-family: 'Barlow', sans-serif;
+  background-color: #f8f9fa; /* Un gris muy claro para que el blanco de las cards resalte */
+  color: #212529;
+}
+
+h1, h2, h3, .nav-link {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+}
+
+/* Animación suave para el cambio de "vista" */
+.app-container {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
